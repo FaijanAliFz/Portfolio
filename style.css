@@ -157,3 +157,10 @@ footer a:hover {
     font-size: 1.2em;
     line-height: 1.6;
 }
+
+
+@media (max-width: 768px) {
+    .project-media img {
+        max-width: 90vw; /* Adjust for smaller screens */
+    }
+}
