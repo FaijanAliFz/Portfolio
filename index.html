@@ -23,12 +23,17 @@
     </div>
 
     <footer>
-      <p>
-        &copy; 2025 Data Analyst Portfolio. All rights reserved. |
-        <a href="#">Privacy Policy</a>
-      </p>
-    </footer>
+  <p>
+    &copy; <span id="year"></span> Data Analyst Portfolio. All rights reserved |
+    <a href="#">Privacy Policy</a>
+  </p>
+</footer>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
 
     <script src="script.js"></script>
+
   </body>
 </html>
